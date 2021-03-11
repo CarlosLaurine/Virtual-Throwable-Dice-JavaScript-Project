@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Throwable Virtual Dice</title>
+	<meta charset="utf-8">
+
+	<!--Setting a custom Dice Icon as a fav icon at the top of the page guide-->
+	<link rel="icon" href="Imgs/dice-Icon.png">
+	<!--External stylesheet hyperlink reference-->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!--Setting a main div with an id-->
+	<div id="main">
+	<h1 id="title">Throwable Virtual Dice</h1>
+	<!--Setting initial Dice Image (Face1)-->
+	<img src="Imgs/diceFace1.png" alt="dice" id="diceFace"> 
+	<br>
+	<!--Setting a Throw Button to pull the JavaScript function sortDice() and randomly change the Dice Face-->
+	<!--Also defining an id in order to format and stylize the button a bit-->
+	<input type="button" value="THROW!" onclick="sortDice()" id="throwButton">
+	</div>
+
+	<!--JS doc reference (coming preferably right before the body close tag, for good execution motives)-->
+	<script src="dice.js"></script>
+</body>
+</html>
