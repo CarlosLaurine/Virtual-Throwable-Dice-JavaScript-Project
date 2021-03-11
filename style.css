@@ -1,0 +1,50 @@
+/*BASIC STYLESHEET LAYOUT FOR THE DICE THROWING PAGE*/
+
+/*Setting the page color*/
+body{
+
+	background-color: rgb(200,20,200,20);
+}
+
+
+/*Defining a adjustable layout for main div through "margin: 0 auto" definito=ion*/
+#main{
+
+	margin: 0 auto;
+
+	text-indent: 40%;
+
+	min-width: 20%;
+}
+
+/*Aligning the Dice Image to the center of the page, adjusting margin and making its border curvy*/
+
+img#diceFace{
+	border-radius: 15px;
+	margin:10px;
+	margin-bottom: 2em;
+	text-align: center;
+	margin-left: 42%;
+}
+
+/*Designing the Throw button - Proportional Layout (For the Full Browser Page only), Color, Cursor, Size and Text Content*/
+
+#throwButton{
+	border-radius: 10px;
+	background-color: #f6f6f6;
+	height: 64px;
+	width: 128px;
+	margin:0 5.3em; 
+
+    cursor: pointer;
+
+	font-family: "Trebuchet-MS" sans-serif;
+	margin-left: 46%;
+
+}
+
+/*Setting a background color + color change once the cursor is on Throw Button*/
+#throwButton:hover{
+	background-color: black;
+	color: #fff;
+}
